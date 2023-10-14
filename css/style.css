@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    border: 4px dashed #888;
+    position: relative;
+    /* display: flex;   */
+}
+
+
+
+
+.container .box{
+    width: 150px;
+    height: 150px;
+}
+.container .box.pink{
+    background-color: rgb(196, 192, 255);
+    /* animation: love 2s infinite;
+    position: absolute; */
+animation: yuye 3s infinite;
+position: absolute;
+    
+}
+.container .box.yellow{
+    
+     background-color: rgb(255, 0, 0);
+     /* animation: mode 2s infinite;
+     position: absolute; */
+  animation: lala 2s infinite;
+  position: absolute;
+}
+/* 
+
+
+@keyframes love{
+from{
+    top: 0;
+    left: 0;
+}
+to{
+    top: 50px;
+}
+    
+}
+
+@keyframes mode {
+    from{
+        top: 0;
+        left: 200px;
+
+    }
+    to{
+        top: 50px;
+        left: 200px;
+    }
+} */
+@keyframes yuye{
+    0%{left: 0;
+        top: 0;
+        
+    }
+    25%{
+        left: 600px;
+        top: 0;
+    }
+    50%{
+        left: 600px;
+        top: 600px;
+    }
+    75%{
+        left: 0;
+        top: 600px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+@keyframes lala{
+    0%{left: 0;
+        top: 0;
+        
+    }
+    25%{
+        left: 600px;
+        top: 0;
+    }
+    50%{
+        left: 600px;
+        top: 600px;
+    }
+    75%{
+        left: 0;
+        top: 600px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
